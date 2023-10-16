@@ -1,4 +1,4 @@
-![Screenshot from 2023-10-16 19-23-08](https://github.com/KulkarniShrinivas/MEME-Generator/assets/91586785/0d319882-3508-4fed-883d-ba5cedf64dfb)# MEME-Generator
+# MEME-Generator
 
 This is a simple MEME generator web application.
 
