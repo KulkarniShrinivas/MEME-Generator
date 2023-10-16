@@ -1,0 +1,71 @@
+/* Reset some default styles */
+body, h1, h2, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a box-sizing border-box to everything */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Apply a minimal styling to the body */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f0f0f0;
+    padding: 5%;
+}
+
+.meme-generator {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.meme-generator img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.meme-generator .generate-meme-btn {
+    padding: 8px 20px;
+    border: none;
+    border-left: 4px solid #222;
+    border-right: 4px solid #222;
+    margin: 24px 0;
+    font-size: 20px;
+    color: #fff;
+    background-color: #f64d4d;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.meme-generator .generate-meme-btn:hover {
+    padding: 8px 36px;
+    border-left: 4px solid #222;
+    border-right: 4px solid #222;
+    letter-spacing: 3px;
+}
+
+.meme-generator .meme-author {
+    margin: 8px;
+}
+
+.meme-generator .loading {
+    display: none;
+}
+
+.meme-generator.loading .loading {
+    display: block;
+}
+
+.meme-generator .loading img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
